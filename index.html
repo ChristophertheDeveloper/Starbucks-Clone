@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Starbucks Clone</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div style="text-align:center;padding:10px;">
+         <script>
+            alert('Disclaimer: This is a Starbucks Clone (Not Real Website) created as part of my Web Development Portfolio. All Information, Trademarks, and Logos belong to the Starbucks Corporation. By choosing to proceed you Agree that you Understand and Accept Disclaimer.');
+         </script>
+      </div>
+      <section>
+         <div class="circle"></div>
+         <header>
+            <a href="#" ><img src="images/logo.png" class="logo"></a>
+            <ul>
+               <li><a href="https://www.starbucks.com/">Home</a></li>
+               <li><a href="https://www.starbucks.com/menu">Menu</a></li>
+               <li><a href="https://www.starbucks.com/ways-to-order/">Order and Pickup</a></li>
+               <li><a href="https://www.starbucks.com/careers/">Careers</a></li>
+            </ul>
+         </header>
+         <div class ="content">
+            <div class ="textBox">
+               <h2>It's not just Coffee <br> It's <span> Starbucks</span></h2>
+               <p>From the beginning, Starbucks set out to be a different kind of company. One that not only celebrated coffee but also connection. We’re a neighborhood gathering place, a part of your daily routine. Get to know us and you’ll see: we are so much more than what we brew. We call our employees partners because we are all partners in shared success. We make sure everything we do is through the lens of humanity—from our commitment to the highest-quality coffee in the world, to the way we engage with our customers and communities to do business responsibly. Our Mission is to inspire and nurture the human spirit - One Person, One Cup, and One Neighborhood at a time.</p>
+               <a href="https://www.starbucks.com/careers/working-at-starbucks/culture-and-values">Learn More</a>
+            </div>
+            <div class="imgBox">
+               <img src="./images/img1.png" class="starbucks">
+            </div>
+         </div>
+         <ul class="thumb">
+            <li><img src="images/thumb1.png" onclick="imgSlider('images/img1.png')"></li>
+            <li><img src="images/thumb2.png"onclick="imgSlider('images/img2.png')"></li>
+            <li><img src="images/thumb3.png"onclick="imgSlider('images/img3.png')"></li>
+         </ul>
+         <ul class="soc">
+            <li><a href="https://www.facebook.com/"><img src="images/facebook.png"></a></li>
+            <li><a href="https://www.twitter.com/"><img src="images/twitter.png"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="images/instagram.png"></a></li>
+         </ul>
+      </section>
+      <footer class="footer">
+         <p>&copy; 2021  Unless otherwise indicated, the Sites and all content and other materials therein, including, without limitation, the Starbucks logo and all designs, text, graphics, pictures, information, data, software, sound files, other files and the selection and arrangement thereof (collectively, “Site Materials”) are the property of Starbucks or its licensors or users and are protected by U.S. and international copyright laws.</p>
+      </footer>
+      <script type="text/javascript">
+         function imgSlider(anything){
+         document.querySelector('.starbucks').src =anything;
+         }
+      </script>
+   </body>
+</html>
